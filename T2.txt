@@ -1,0 +1,7 @@
+
+
+Implementar um Union Find
+    Análise de complexidade!!
+    UF1: balanceamento.
+    UF2: balanceamento e path compression
+    modificar o UF2 para determinar em O(1) o número de componentesconexos.
