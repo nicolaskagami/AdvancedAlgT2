@@ -1,4 +1,7 @@
 #include<iostream>
+#include<fstream>
+#include<string>
+#include<sstream>
 #include<stdlib.h>
 #include<stdio.h>
 #define INITIAL_SIZE 32
@@ -7,6 +10,7 @@ class UnionFind
 {
     public:
         UnionFind();
+        UnionFind(std::istream& in);
         UnionFind(unsigned size);
         ~UnionFind();
         void make_set(unsigned set);
@@ -15,9 +19,9 @@ class UnionFind
         unsigned resize(unsigned newSize);
         void link(unsigned a, unsigned b);
         void print();
+        unsigned biggestRoot();
     private:
-        unsigned * ids;
         unsigned * sets;
-        unsigned occupation;
+        unsigned * weights;
         unsigned capacity;
 };
