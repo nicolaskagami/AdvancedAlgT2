@@ -1,0 +1,48 @@
+make-set 0
+make-set 1
+make-set 2
+make-set 3
+make-set 4
+make-set 5
+make-set 6
+make-set 7
+make-set 8
+make-set 9
+make-set 10
+make-set 11
+make-set 12
+make-set 13
+make-set 14
+make-set 15
+make-set 16
+make-set 17
+make-set 18
+make-set 19
+make-set 20
+make-set 21
+make-set 22
+make-set 23
+make-set 24
+make-set 25
+make-set 26
+make-set 27
+make-set 28
+make-set 29
+make-set 30
+make-set 31
+union 17 1
+union 12 1
+union 8 1
+union 4 16
+union 17 4
+union 0 11
+union 19 18
+union 25 18
+union 3 23
+union 7 9
+union 2 7
+union 11 7
+union 18 7
+union 25 6
+union 28 25
+union 26 13

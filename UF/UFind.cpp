@@ -1,14 +1,21 @@
 
 #include "UFind.h"
 
+
 UnionFind::UnionFind()
 {
+    pathCost = 0;
+    numSets = 0;
+    numLinks = 0;
     sets = (unsigned*) malloc(INITIAL_SIZE*sizeof(unsigned)); 
     weights = (unsigned*) malloc(INITIAL_SIZE*sizeof(unsigned)); 
     capacity = INITIAL_SIZE;
 }
 UnionFind::UnionFind(std::istream& in)
 {
+    pathCost = 0;
+    numSets = 0;
+    numLinks = 0;
     sets = (unsigned*) malloc(INITIAL_SIZE*sizeof(unsigned)); 
     weights = (unsigned*) malloc(INITIAL_SIZE*sizeof(unsigned)); 
     capacity = INITIAL_SIZE;
@@ -38,9 +45,12 @@ UnionFind::UnionFind(std::istream& in)
 }
 UnionFind::UnionFind(unsigned size)
 {
-   sets = (unsigned*) malloc(size*sizeof(unsigned)); 
-   weights = (unsigned*) malloc(size*sizeof(unsigned)); 
-   capacity = size;
+    pathCost = 0;
+    numSets = 0;
+    numLinks = 0;
+    sets = (unsigned*) malloc(size*sizeof(unsigned)); 
+    weights = (unsigned*) malloc(size*sizeof(unsigned)); 
+    capacity = size;
 }
 UnionFind::~UnionFind()
 {
@@ -59,6 +69,7 @@ unsigned UnionFind::resize(unsigned newSize)
 }
 void UnionFind::make_set(unsigned set)
 {
+    numSets++;
     if(set>=(capacity-1))
     {
         if(set>(capacity*2))
@@ -84,10 +95,15 @@ void UnionFind::make_set(unsigned set)
 unsigned UnionFind::find(unsigned element)
 {
     unsigned i = element;
-    if(sets[element]==element)
+    if(weights[element]>0)
     {
         while((i<capacity)&&(sets[i]!=i))
+        {
+            pathCost++;
             i=sets[i];
+        }
+        if(PATH_COMPRESSION)
+            sets[element]=i;//Path Compression
         return i;
     }
     return -1;
@@ -98,20 +114,29 @@ bool UnionFind::connected(unsigned a, unsigned b)
 }
 void UnionFind::link(unsigned a, unsigned b)
 {
+    numLinks++;
     unsigned aroot = find(a);
     unsigned broot = find(b);
     //printf("Linking %d(%d) - %d(%d)\n",a,ids[aroot],b, ids[broot]);
-    if((aroot!=-1)&&(broot!=-1))
+    if((aroot!=-1)&&(broot!=-1)&&(aroot!=broot))
     {
-        if(weights[aroot]>weights[broot])
+        if(WEIGHT_BALANCING)
         {
-            weights[aroot]+=weights[broot];
-            sets[broot]=sets[aroot];
+            if(weights[aroot]>weights[broot])//Weight Balancing
+            {
+                weights[aroot]+=weights[broot];
+                sets[broot]=sets[aroot];
+            }
+            else
+            {
+                weights[broot]+=weights[aroot];
+                sets[aroot]=sets[broot];
+            }
         }
         else
         {
-            weights[broot]+=weights[aroot];
-            sets[aroot]=sets[broot];
+            weights[aroot]+=weights[broot];
+            sets[broot]=sets[aroot];
         }
     }
 }

@@ -1,14 +1,14 @@
 
-all: clean union-find
+all: clean UF0 UF1 UF2 
 
-union-find: UFind.o main.o
-	g++ main.o UFind.o -o union-find
+UF0: UFind.cpp main.cpp
+	g++ -DPATH_COMPRESSION=0 -DWEIGHT_BALANCING=0 main.cpp UFind.cpp -o UF0
 
-main.o: main.cpp
-	g++ -c main.cpp
+UF1: UFind.cpp main.cpp
+	g++ -DPATH_COMPRESSION=0 -DWEIGHT_BALANCING=1 main.cpp UFind.cpp -o UF1
 
-UFind.o: UFind.cpp
-	g++ -c UFind.cpp
+UF2: UFind.cpp main.cpp
+	g++ -DPATH_COMPRESSION=1 -DWEIGHT_BALANCING=1 main.cpp UFind.cpp -o UF2
 
 clean:
 	rm -rf *.o

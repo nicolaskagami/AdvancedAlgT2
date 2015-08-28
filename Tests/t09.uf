@@ -1,0 +1,768 @@
+make-set 0
+make-set 1
+make-set 2
+make-set 3
+make-set 4
+make-set 5
+make-set 6
+make-set 7
+make-set 8
+make-set 9
+make-set 10
+make-set 11
+make-set 12
+make-set 13
+make-set 14
+make-set 15
+make-set 16
+make-set 17
+make-set 18
+make-set 19
+make-set 20
+make-set 21
+make-set 22
+make-set 23
+make-set 24
+make-set 25
+make-set 26
+make-set 27
+make-set 28
+make-set 29
+make-set 30
+make-set 31
+make-set 32
+make-set 33
+make-set 34
+make-set 35
+make-set 36
+make-set 37
+make-set 38
+make-set 39
+make-set 40
+make-set 41
+make-set 42
+make-set 43
+make-set 44
+make-set 45
+make-set 46
+make-set 47
+make-set 48
+make-set 49
+make-set 50
+make-set 51
+make-set 52
+make-set 53
+make-set 54
+make-set 55
+make-set 56
+make-set 57
+make-set 58
+make-set 59
+make-set 60
+make-set 61
+make-set 62
+make-set 63
+make-set 64
+make-set 65
+make-set 66
+make-set 67
+make-set 68
+make-set 69
+make-set 70
+make-set 71
+make-set 72
+make-set 73
+make-set 74
+make-set 75
+make-set 76
+make-set 77
+make-set 78
+make-set 79
+make-set 80
+make-set 81
+make-set 82
+make-set 83
+make-set 84
+make-set 85
+make-set 86
+make-set 87
+make-set 88
+make-set 89
+make-set 90
+make-set 91
+make-set 92
+make-set 93
+make-set 94
+make-set 95
+make-set 96
+make-set 97
+make-set 98
+make-set 99
+make-set 100
+make-set 101
+make-set 102
+make-set 103
+make-set 104
+make-set 105
+make-set 106
+make-set 107
+make-set 108
+make-set 109
+make-set 110
+make-set 111
+make-set 112
+make-set 113
+make-set 114
+make-set 115
+make-set 116
+make-set 117
+make-set 118
+make-set 119
+make-set 120
+make-set 121
+make-set 122
+make-set 123
+make-set 124
+make-set 125
+make-set 126
+make-set 127
+make-set 128
+make-set 129
+make-set 130
+make-set 131
+make-set 132
+make-set 133
+make-set 134
+make-set 135
+make-set 136
+make-set 137
+make-set 138
+make-set 139
+make-set 140
+make-set 141
+make-set 142
+make-set 143
+make-set 144
+make-set 145
+make-set 146
+make-set 147
+make-set 148
+make-set 149
+make-set 150
+make-set 151
+make-set 152
+make-set 153
+make-set 154
+make-set 155
+make-set 156
+make-set 157
+make-set 158
+make-set 159
+make-set 160
+make-set 161
+make-set 162
+make-set 163
+make-set 164
+make-set 165
+make-set 166
+make-set 167
+make-set 168
+make-set 169
+make-set 170
+make-set 171
+make-set 172
+make-set 173
+make-set 174
+make-set 175
+make-set 176
+make-set 177
+make-set 178
+make-set 179
+make-set 180
+make-set 181
+make-set 182
+make-set 183
+make-set 184
+make-set 185
+make-set 186
+make-set 187
+make-set 188
+make-set 189
+make-set 190
+make-set 191
+make-set 192
+make-set 193
+make-set 194
+make-set 195
+make-set 196
+make-set 197
+make-set 198
+make-set 199
+make-set 200
+make-set 201
+make-set 202
+make-set 203
+make-set 204
+make-set 205
+make-set 206
+make-set 207
+make-set 208
+make-set 209
+make-set 210
+make-set 211
+make-set 212
+make-set 213
+make-set 214
+make-set 215
+make-set 216
+make-set 217
+make-set 218
+make-set 219
+make-set 220
+make-set 221
+make-set 222
+make-set 223
+make-set 224
+make-set 225
+make-set 226
+make-set 227
+make-set 228
+make-set 229
+make-set 230
+make-set 231
+make-set 232
+make-set 233
+make-set 234
+make-set 235
+make-set 236
+make-set 237
+make-set 238
+make-set 239
+make-set 240
+make-set 241
+make-set 242
+make-set 243
+make-set 244
+make-set 245
+make-set 246
+make-set 247
+make-set 248
+make-set 249
+make-set 250
+make-set 251
+make-set 252
+make-set 253
+make-set 254
+make-set 255
+make-set 256
+make-set 257
+make-set 258
+make-set 259
+make-set 260
+make-set 261
+make-set 262
+make-set 263
+make-set 264
+make-set 265
+make-set 266
+make-set 267
+make-set 268
+make-set 269
+make-set 270
+make-set 271
+make-set 272
+make-set 273
+make-set 274
+make-set 275
+make-set 276
+make-set 277
+make-set 278
+make-set 279
+make-set 280
+make-set 281
+make-set 282
+make-set 283
+make-set 284
+make-set 285
+make-set 286
+make-set 287
+make-set 288
+make-set 289
+make-set 290
+make-set 291
+make-set 292
+make-set 293
+make-set 294
+make-set 295
+make-set 296
+make-set 297
+make-set 298
+make-set 299
+make-set 300
+make-set 301
+make-set 302
+make-set 303
+make-set 304
+make-set 305
+make-set 306
+make-set 307
+make-set 308
+make-set 309
+make-set 310
+make-set 311
+make-set 312
+make-set 313
+make-set 314
+make-set 315
+make-set 316
+make-set 317
+make-set 318
+make-set 319
+make-set 320
+make-set 321
+make-set 322
+make-set 323
+make-set 324
+make-set 325
+make-set 326
+make-set 327
+make-set 328
+make-set 329
+make-set 330
+make-set 331
+make-set 332
+make-set 333
+make-set 334
+make-set 335
+make-set 336
+make-set 337
+make-set 338
+make-set 339
+make-set 340
+make-set 341
+make-set 342
+make-set 343
+make-set 344
+make-set 345
+make-set 346
+make-set 347
+make-set 348
+make-set 349
+make-set 350
+make-set 351
+make-set 352
+make-set 353
+make-set 354
+make-set 355
+make-set 356
+make-set 357
+make-set 358
+make-set 359
+make-set 360
+make-set 361
+make-set 362
+make-set 363
+make-set 364
+make-set 365
+make-set 366
+make-set 367
+make-set 368
+make-set 369
+make-set 370
+make-set 371
+make-set 372
+make-set 373
+make-set 374
+make-set 375
+make-set 376
+make-set 377
+make-set 378
+make-set 379
+make-set 380
+make-set 381
+make-set 382
+make-set 383
+make-set 384
+make-set 385
+make-set 386
+make-set 387
+make-set 388
+make-set 389
+make-set 390
+make-set 391
+make-set 392
+make-set 393
+make-set 394
+make-set 395
+make-set 396
+make-set 397
+make-set 398
+make-set 399
+make-set 400
+make-set 401
+make-set 402
+make-set 403
+make-set 404
+make-set 405
+make-set 406
+make-set 407
+make-set 408
+make-set 409
+make-set 410
+make-set 411
+make-set 412
+make-set 413
+make-set 414
+make-set 415
+make-set 416
+make-set 417
+make-set 418
+make-set 419
+make-set 420
+make-set 421
+make-set 422
+make-set 423
+make-set 424
+make-set 425
+make-set 426
+make-set 427
+make-set 428
+make-set 429
+make-set 430
+make-set 431
+make-set 432
+make-set 433
+make-set 434
+make-set 435
+make-set 436
+make-set 437
+make-set 438
+make-set 439
+make-set 440
+make-set 441
+make-set 442
+make-set 443
+make-set 444
+make-set 445
+make-set 446
+make-set 447
+make-set 448
+make-set 449
+make-set 450
+make-set 451
+make-set 452
+make-set 453
+make-set 454
+make-set 455
+make-set 456
+make-set 457
+make-set 458
+make-set 459
+make-set 460
+make-set 461
+make-set 462
+make-set 463
+make-set 464
+make-set 465
+make-set 466
+make-set 467
+make-set 468
+make-set 469
+make-set 470
+make-set 471
+make-set 472
+make-set 473
+make-set 474
+make-set 475
+make-set 476
+make-set 477
+make-set 478
+make-set 479
+make-set 480
+make-set 481
+make-set 482
+make-set 483
+make-set 484
+make-set 485
+make-set 486
+make-set 487
+make-set 488
+make-set 489
+make-set 490
+make-set 491
+make-set 492
+make-set 493
+make-set 494
+make-set 495
+make-set 496
+make-set 497
+make-set 498
+make-set 499
+make-set 500
+make-set 501
+make-set 502
+make-set 503
+make-set 504
+make-set 505
+make-set 506
+make-set 507
+make-set 508
+make-set 509
+make-set 510
+make-set 511
+union 497 417
+union 428 289
+union 200 1
+union 452 464
+union 369 36
+union 352 267
+union 51 178
+union 249 178
+union 195 439
+union 199 73
+union 98 39
+union 267 423
+union 82 455
+union 121 326
+union 156 409
+union 250 141
+union 314 166
+union 430 3
+union 168 370
+union 467 25
+union 406 308
+union 292 458
+union 486 29
+union 124 169
+union 469 324
+union 242 55
+union 363 509
+union 479 445
+union 452 88
+union 259 96
+union 498 509
+union 238 300
+union 164 156
+union 303 332
+union 15 259
+union 357 421
+union 55 137
+union 367 29
+union 167 492
+union 198 124
+union 304 440
+union 179 155
+union 437 146
+union 88 377
+union 235 347
+union 474 221
+union 345 200
+union 9 509
+union 356 313
+union 329 371
+union 60 174
+union 281 115
+union 311 136
+union 144 478
+union 116 342
+union 90 420
+union 270 270
+union 63 195
+union 416 151
+union 60 139
+union 499 22
+union 360 332
+union 222 370
+union 329 67
+union 171 146
+union 438 231
+union 320 207
+union 346 119
+union 344 490
+union 86 460
+union 320 176
+union 369 78
+union 446 432
+union 273 351
+union 72 333
+union 490 59
+union 356 339
+union 391 66
+union 197 208
+union 133 368
+union 354 60
+union 87 162
+union 267 433
+union 281 99
+union 411 367
+union 48 219
+union 32 417
+union 297 478
+union 337 58
+union 317 409
+union 391 296
+union 468 235
+union 123 347
+union 302 320
+union 43 435
+union 176 397
+union 495 263
+union 47 251
+union 184 329
+union 350 83
+union 184 398
+union 302 216
+union 303 87
+union 183 129
+union 145 500
+union 26 24
+union 284 495
+union 260 407
+union 330 50
+union 215 374
+union 485 391
+union 259 469
+union 142 307
+union 208 326
+union 124 46
+union 409 308
+union 445 199
+union 13 236
+union 286 196
+union 365 431
+union 184 392
+union 456 469
+union 375 204
+union 364 193
+union 254 68
+union 55 227
+union 459 315
+union 184 90
+union 110 392
+union 416 234
+union 439 314
+union 30 372
+union 1 43
+union 96 288
+union 239 462
+union 207 424
+union 342 151
+union 381 205
+union 355 233
+union 398 97
+union 301 454
+union 325 249
+union 257 509
+union 339 367
+union 390 243
+union 89 317
+union 45 119
+union 177 47
+union 163 273
+union 335 402
+union 223 30
+union 314 53
+union 182 183
+union 258 25
+union 417 145
+union 123 206
+union 87 448
+union 455 344
+union 445 282
+union 199 323
+union 14 288
+union 128 59
+union 407 305
+union 106 58
+union 67 441
+union 461 290
+union 472 263
+union 344 142
+union 447 90
+union 167 352
+union 235 290
+union 46 322
+union 226 502
+union 154 160
+union 272 353
+union 483 286
+union 129 100
+union 346 25
+union 405 452
+union 83 472
+union 382 32
+union 251 342
+union 296 83
+union 484 231
+union 173 139
+union 71 409
+union 430 117
+union 219 144
+union 107 374
+union 304 380
+union 215 276
+union 154 345
+union 376 500
+union 370 269
+union 441 453
+union 230 311
+union 486 481
+union 141 270
+union 52 113
+union 501 225
+union 252 60
+union 122 170
+union 177 342
+union 315 285
+union 204 107
+union 153 419
+union 383 307
+union 252 247
+union 296 110
+union 5 225
+union 52 235
+union 24 26
+union 204 165
+union 296 256
+union 278 285
+union 481 18
+union 345 92
+union 189 10
+union 434 504
+union 295 126
+union 99 448
+union 33 483
+union 244 286
+union 218 28
+union 396 223
+union 253 448
+union 458 277
+union 474 150
+union 442 258
+union 406 208
+union 31 376
+union 226 376
+union 468 415
+union 387 390
+union 407 170
+union 4 507
+union 107 37
+union 478 351
+union 323 184
+union 379 208
+union 408 120
+union 144 354
+union 397 107
+union 505 327
+union 365 399
+union 23 397
+union 263 249
+union 261 219
+union 153 136
+union 97 48
+union 307 101
+union 43 414
+union 139 9
+union 253 462
+union 194 120
+union 158 90

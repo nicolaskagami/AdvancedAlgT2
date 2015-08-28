@@ -6,6 +6,14 @@
 #include<stdio.h>
 #define INITIAL_SIZE 32
 
+#ifndef PATH_COMPRESSION 
+#define PATH_COMPRESSION 0
+#endif
+
+#ifndef WEIGHT_BALANCING 
+#define WEIGHT_BALANCING 0
+#endif
+
 class UnionFind
 {
     public:
@@ -20,6 +28,10 @@ class UnionFind
         void link(unsigned a, unsigned b);
         void print();
         unsigned biggestRoot();
+
+        unsigned pathCost;
+        unsigned numSets;
+        unsigned numLinks;
     private:
         unsigned * sets;
         unsigned * weights;

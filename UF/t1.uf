@@ -31,6 +31,7 @@ make-set 29
 make-set 30
 make-set 31
 union 6 20
+union 20 20
 union 11 7
 union 15 11
 union 17 13

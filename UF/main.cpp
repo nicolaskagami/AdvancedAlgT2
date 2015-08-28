@@ -6,5 +6,5 @@
 int main(int argc, char **argv)
 {
     UnionFind uf(std::cin);
-    printf("Biggest: %d\n",uf.biggestRoot());
+    std::cout << WEIGHT_BALANCING << " " << PATH_COMPRESSION << " " << uf.numSets << " " << uf.numLinks << " " << uf.biggestRoot() << " " << uf.pathCost << std::endl;
 }
