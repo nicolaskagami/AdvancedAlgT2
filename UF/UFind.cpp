@@ -41,6 +41,13 @@ UnionFind::UnionFind(std::istream& in)
             //std::cout << "union " << a << " " << b << std::endl; 
             link(a,b);
         }
+        if(line.substr(0,4)=="find")
+        {
+            std::stringstream arc(line);
+            arc.seekg(4);
+            arc >> a;
+            std::cout << find(a) << std::endl; 
+        }
     }
 }
 UnionFind::UnionFind(unsigned size)
