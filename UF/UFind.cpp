@@ -66,8 +66,11 @@ UnionFind::~UnionFind()
 }
 unsigned UnionFind::resize(unsigned newSize)
 {
+    unsigned oldSize = capacity;
     sets = (unsigned*) realloc(sets,newSize*sizeof(unsigned));
     weights = (unsigned*) realloc(weights,newSize*sizeof(unsigned));
+    for (unsigned i=oldSize;i<newSize;i++)
+        weights[i] = 0;
     capacity=newSize;
     if(sets != NULL)
         return 0;
@@ -159,12 +162,23 @@ void UnionFind::print()
 unsigned UnionFind::biggestRoot()
 {
     unsigned biggest = 0;
+    unsigned biggestRoot = 0;
     for(unsigned i=0;i<capacity;i++)
     {
         if(weights[i]>biggest)
         {
             biggest = weights[i]; 
+            biggestRoot = i;
         }
     }
+    unsigned verify=0;
+    for(unsigned i =0;i<capacity;i++)
+    {
+        if(find(i)==biggestRoot)
+        {
+            verify++;
+        }
+    }
+    std::cerr << verify << " " << biggest << " " << biggestRoot << std::endl;
     return biggest;
 }
